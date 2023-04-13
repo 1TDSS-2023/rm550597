@@ -41,6 +41,27 @@
     color: #000000;
 }
 
-.cabecalho a:link{
-    
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+
+}
+
+.conteudo > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    margin:0 auto;
+}
+
+.tit-sec{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 2em;
 }
